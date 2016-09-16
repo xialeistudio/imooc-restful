@@ -113,6 +113,11 @@ class Bridge
         }
     }
 
+    /**
+     * 删除文章
+     * @param int $articleId
+     * @return string
+     */
     public function deleteArticle($articleId)
     {
         try {
